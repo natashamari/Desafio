@@ -1,13 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
-/* HEADER */
+body {
+    background: radial-gradient(rgb(213, 225, 234), rgb(248, 185, 217));
+    width: 100%;
+  }
+.contenedor > div {
+    display: grid;
+    width: 100%;
+   
+    
+    
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto); 
+}
 
-/* MAIN */
+.foto_inicio {
+    width: 100%;
+    max-width: fit-content;
+}
 
-
-
-
-/* ASIDE */
 .aside{
     grid-area: aside;
     background-color:rgb(183, 136, 161) ;
@@ -29,5 +44,3 @@ aside p {
     font-family: 'Libre Bodoni', serif;
     
 }
-
-/* FOOTER */

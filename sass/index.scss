@@ -1,4 +1,9 @@
-body {
-    background-color: black;
-    color: aliceblue;
-}
+@import "variables"; 
+
+@import "global";
+
+@import "header";
+
+@import "depilacion";
+
+@import "footer";
